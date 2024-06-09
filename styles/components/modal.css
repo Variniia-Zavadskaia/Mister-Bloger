@@ -1,0 +1,65 @@
+.card-modal {
+   display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45vw;
+    height: 25vh;
+    padding: 1em;
+    text-align: center;
+
+    background-color: rgb(255, 253, 253);
+    box-shadow: 3px 3px 6px rgb(173 173 173);
+
+    opacity: 1;
+    transition: opacity .8s ease-out;
+
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(160, 155, 155, 0.765);
+
+    opacity: 0;
+    transition: opacity .8s ease-out;
+}
+
+.row {
+    margin-top: 20px;
+    font-family: lato;
+    color: var(--clr001);
+}
+
+.modal-content span {
+    font-family: lato;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: var(--clr001);
+}
+
+.submit {
+    margin-top: 1.25em;
+    background-color: var(--clr001);
+    color: var(--clr004);
+    font-family: lato;
+    text-transform: uppercase;
+    height: 2.5rem;
+}
+
+.close {
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    font-size: small;
+    cursor: pointer;
+    background-color: var(--clr001);
+}

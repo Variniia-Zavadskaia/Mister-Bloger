@@ -1,0 +1,32 @@
+.card {
+    display: grid;
+    grid-template-areas:
+        "i"
+        "t"
+        "p"
+        "b";
+    gap: 0 20px;
+}
+
+.card-image {
+    grid-area: i;
+    width: 100%;
+}
+
+.card-title {
+    grid-area: t;
+    text-transform: uppercase;
+    font-family: lato;
+    color: var(--clr002);
+}
+
+.card-text{
+    grid-area: p;
+    font-family: lato;
+}
+
+.card-button{
+    grid-area: b;
+    align-self: end;
+    justify-self: start;
+}

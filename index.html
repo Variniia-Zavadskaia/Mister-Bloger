@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Blogin</title>
+</head>
+
+<body class="main-layout">
+
+    <div class="main-screen" onclick="toggleMenu()"></div>
+
+    <header class="main-header full main-layout">
+        <div class="nav-bar">
+            <div class="logo">Blogin<span class="logo-dot">.</span></div>
+            <nav class="main-nav-container">
+                <ul class="main-nav clean-list flex">
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        <button class="btn-menu" onclick="toggleMenu()">☰</button>
+        <button class="btn-menu-x" onclick="toggleMenu()">✖</button>
+        </div>
+    </header>
+
+    <main class="main-content  center-column">
+        <div class="card card-layout">
+            <img class="card-image" src="img/1.png" alt="">
+            <div class="card-box">
+                <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex
+                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla
+                    pariatur...
+                </p>
+                <button onclick="showDialog()" class="btn rounded arrow card-btn">Continue Reading</button>
+            </div>
+        </div>
+
+        <div class="card card-layout">
+            <img class="card-image" src="img/2.png" alt="">
+            <div class="card-box">
+                <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex
+                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla
+                    pariatur...
+                </p>
+                <button onclick="showDialog()" class="btn rounded arrow card-btn">Continue Reading</button>
+            </div>
+        </div>
+
+        <div class="card card-layout">
+            <img class="card-image" src="img/3.png" alt="">
+            <div class="card-box">
+                <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex
+                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla
+                    pariatur...
+                </p>
+                <button onclick="showDialog()" class="btn rounded arrow card-btn">Continue Reading</button>
+            </div>
+        </div>
+    </main>
+
+    <nav class="pager flex space-between  center-column">
+        <a href="#" class="previous"> Previous</a>
+        <a href="#" class="next">Next </a>
+    </nav>
+
+    <div class="backdrop">
+        <dialog class="card-modal">
+            <form method="dialog">
+                <div class="modal-content">
+                    <span>Join us to get access to the latest stories!</span>
+                    <div class="row">
+                        <label for="email">Email: </label>
+                        <input id="email" type="email" placeholder="Your email" required />
+                    </div>
+                    <button class="submit" type="submit">Submit</button>
+                </div>
+            </form>
+            <button onclick="closeDialog()" class="close">✖</button>
+        </dialog>
+    </div>
+
+    <footer class="main-footer full ">
+        <div class="logo logo-footer">Blogin<span class="logo-dot">.</span></div>
+        <small class="footer-rights">© 2014 Blogin.com - All Rights Reserved - Find more free Templates at
+            Pixelhint.com</small>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yourusername" target="_blank">
+                <img src="img/facebook_icon.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://www.twitter.com/yourusername" target="_blank">
+                <img src="img/twitter_icon.svg" alt="Twitter Icon">
+            </a>
+            <a href="https://www.instagram.com/yourusername" target="_blank">
+                <img src="img/instagram_icon.svg" alt="Instagram Icon">
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/blog.js"></script>
+
+</body>
+
+</html>

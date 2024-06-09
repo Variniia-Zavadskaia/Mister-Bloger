@@ -1,0 +1,42 @@
+.main-nav-container {
+    display: flex;
+}
+
+.main-nav a {
+    display: grid;
+    font-weight: 400;
+}
+
+.main-nav a.active {
+    color: var(--clr005);
+    pointer-events: none;
+}
+
+.main-nav a:hover {
+    text-decoration: none;
+    box-shadow: inset 0px -6px 0px 0px var(--clr005);
+}
+
+/* .main-nav a {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+    font-size: 1em;
+    filter: drop-shadow(0px 1px 0px 0px #1e1e1e)
+} */
+
+
+
+
+
+/* .main-nav li:hover {
+    box-shadow: inset 0px -6px 0px 0px #58c93a;
+    color: var(--clr005);
+}
+
+.main-nav a:hover {
+    color: var(--clr005);
+} */

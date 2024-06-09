@@ -1,0 +1,39 @@
+.main-footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    height: 315px;
+    background-color: RGBA(248, 248, 248, 1);
+}
+
+.social-icons{
+    gap: 1.0625em;  
+    cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+/* 
+.social-icons > *{
+    background-color: #111;
+    color: #fff;
+    aspect-ratio: 1/1;
+    width: 40px;
+    place-content: center;
+} */
+ 
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+ 
+.social-icons a:hover img {
+  transform: scale(1.2);
+}
+
+

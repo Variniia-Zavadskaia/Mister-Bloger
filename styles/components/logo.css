@@ -1,0 +1,22 @@
+.logo {
+    color: var(--clr003);
+    font-size: 2.5em;
+    font-family: eurofurence;
+    letter-spacing: -1px;
+}
+
+.logo-dot{
+    color: var(--clr005);
+    font-size: 1em;
+    font-family: eurofurence;
+    letter-spacing: -1px;
+}
+
+.logo-footer {
+    color: #292929;
+    font-size: 2.5em;
+    font-family: eurofurence;
+    letter-spacing: -1px;
+    justify-self: center;
+    margin-top: 40px;
+}

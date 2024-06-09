@@ -1,0 +1,21 @@
+/* SETUP */
+@import url(./setup/vars.css);
+@import url(./setup/typography.css);
+
+/* BASICS */
+@import url(./basics/base.css);
+@import url(./basics/helpers.css);
+@import url(./basics/layouts.css);
+
+/* COMPONENTS  */
+@import url(./components/main-header.css);
+@import url(./components/logo.css);
+@import url(./components/main-nav.css);
+@import url(./components/card.css);
+@import url(./components/pager.css);
+@import url(./components/main-screen.css);
+@import url(./components/main-footer.css);
+@import url(./components/modal.css);
+
+/* MQ  */
+@import url(./mq/mq.css);

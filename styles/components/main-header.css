@@ -1,0 +1,12 @@
+.main-header {
+    background: rgba(41, 41, 41, 1);
+    box-shadow: inset 0px -6px 0px 0px var(--colorSecondary1);
+    color: var( --clr003);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
