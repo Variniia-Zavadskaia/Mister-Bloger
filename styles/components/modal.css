@@ -46,20 +46,11 @@
     color: var(--clr001);
 }
 
-.submit {
+.submit, .close {
     margin-top: 1.25em;
     background-color: var(--clr001);
     color: var(--clr004);
     font-family: lato;
     text-transform: uppercase;
     height: 2.5rem;
-}
-
-.close {
-    position: absolute;
-    right: 0rem;
-    top: 0rem;
-    font-size: small;
-    cursor: pointer;
-    background-color: var(--clr001);
 }
