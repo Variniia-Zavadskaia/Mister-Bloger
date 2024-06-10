@@ -1,9 +1,9 @@
 @font-face{
     font-family: eurofurence;
-    src: url(/Fonts/Eurofurence/eurofurence-regular.ttf);
+    src: url(../../Fonts/Eurofurence/eurofurence-regular.ttf);
 }
 
 @font-face{
     font-family: lato;
-    src: url(/Fonts/Lato/Lato-Regular.ttf);
+    src: url(../../Fonts/Lato/Lato-Regular.ttf);
 }
